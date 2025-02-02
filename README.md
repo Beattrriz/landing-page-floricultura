@@ -1,9 +1,9 @@
-# Landing Page - Floricultura "Gardening" - Fictícia
+# 🌸 Landing Page - Floricultura
 
 
 ## Descrição
 
-Este projeto consiste em uma **landing page** para uma floricultura fictícia, desenvolvida com **React** e **Styled-Components**. A página foi projetada para ser simples, intuitiva e visualmente atraente, com o objetivo de apresentar os produtos da floricultura de forma clara e envolvente.
+Bem-vindo à landing page da **Floricultura**, um site elegante e moderno para destacar produtos florais de forma envolvente. 
 
 A página inclui:
 - **Seção hero** com uma imagem de fundo e chamada para ação.
@@ -12,13 +12,18 @@ A página inclui:
 - **Seção de orçamento** para solicitações de contato.
 - **Rodapé** com links sociais e informações de localização.
 
-## Tecnologias Utilizadas
+## 🖥 Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para a construção da interface do usuário.
 - **Styled-Components**: Para o estilo dinâmico e modular da aplicação.
 - **Vercel**: Para o deploy da aplicação.
 
-## Funcionalidades
+## 📸 Imagens  
+As imagens utilizadas no site foram retiradas de fontes **sem direitos autorais**, como:  
+- [Pixabay](https://www.pixabay.com)  
+- [Pexels](https://www.pexels.com)  
+
+## ⚙️ Funcionalidades
 
 - **Hero Section**: Apresenta uma imagem de fundo com uma breve descrição e botão de ação.
 - **Catálogo**: Exibe diferentes categorias de produtos da floricultura, cada um com uma imagem e descrição.
@@ -26,7 +31,7 @@ A página inclui:
 - **Responsividade**: A página é totalmente responsiva, adaptando-se bem a diferentes tamanhos de tela.
 
 
-## Como Rodar o Projeto Localmente
+## 🚀 Como Rodar o Projeto Localmente
 
 1. **Clone o repositório**:
    ```bash
@@ -48,6 +53,6 @@ A página inclui:
 Isso abrirá o projeto em http://localhost:3000.
 
 
-## Implantação
+## 🌍 Implantação
 A landing page foi publicada na Vercel e pode ser acessada através do link:
 - https ://nome -do -projeto .vercel .app
