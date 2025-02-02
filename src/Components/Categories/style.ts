@@ -1,14 +1,30 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  padding: 60px 20px;
+  height: 120vh;  
+  padding: 200px 60px;
   text-align: center;
   background: #fff0f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
 
   h2 {
-    font-size: 2rem;
+    font-size: 5rem;
     color: rgb(233, 149, 173);
     margin-bottom: 30px;
+    font-family: 'Fleur De Leah', cursive;
+  }
+
+   @media (max-width: 768px) {
+    padding: 150px 20px; 
+    height: auto; 
+    
+    h2 {
+      font-size: 3rem;
+      margin-top: 250px; 
+    }
   }
 `;
 
@@ -18,6 +34,14 @@ export const CategoryGrid = styled.div`
   gap: 20px;
   max-width: 1000px;
   margin: auto;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr; 
+  }
 `;
 
 export const CategoryCard = styled.div`
@@ -43,6 +67,10 @@ export const CategoryImage = styled.img`
   object-fit: cover;
   border-radius: 10px;
   transition: opacity 0.5s ease-in-out;
+
+  @media (max-width: 768px) {
+    height: 150px; 
+  }
 `;
 
 export const CategoryName = styled.h3`
@@ -56,4 +84,8 @@ export const CategoryName = styled.h3`
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 1rem; 
+  }
 `;

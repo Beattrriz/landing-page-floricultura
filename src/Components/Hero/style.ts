@@ -16,7 +16,8 @@ export const HeroContainer = styled.section`
 `;
 
 export const NavbarContainer = styled.nav`
-    position: absolute; 
+    position: fixed; 
+     z-index: 1000;
     top: 0;
     left: 0;
     width: 100%;
@@ -34,27 +35,39 @@ export const Logo = styled.div`
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Fleur De Leah', cursive;
+
+    @media (max-width: 768px) {
+        font-size: 1.5rem; 
+    }
 `;
 
 export const Menu = styled.div`
     display: flex;
     gap: 20px;
+
+    @media (max-width: 768px) {
+        display: none; 
+    }
 `;
 
 export const MenuItem = styled.a`
     font-size: 1rem;
     color: rgb(233, 149, 173);;
     text-decoration: none;
+    padding: 5px 10px;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
 
     &:hover {
-        color: rgb(255, 105, 180);
+        border: 2px solid rgb(233, 149, 173); 
+        border-radius: 10px;
+        padding: 5px 15px; 
     }
 `;
 
 export const HeroContent = styled.div`
-    max-width: 600px;
+     max-width: 600px;
+     margin-top: 100px;
 
     h1 {
         font-size: 55px;
@@ -68,8 +81,8 @@ export const HeroContent = styled.div`
     }
 
     button {
-        background:rgb(255, 105, 180);
-        color: white;
+        background:rgba(255, 255, 255, 0.8);
+        color: #e595aa; //
         border: none;
         padding: 10px 20px;
         font-size: 1.2rem;
@@ -78,7 +91,14 @@ export const HeroContent = styled.div`
         border-radius: 5px;
 
         &:hover {
-            background: #d45592;
+            background: #e595aa;
+            color: white;
         }
     }
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        margin-top: 80px; /* Ajusta o espaço em cima */
+    }
 `;
+

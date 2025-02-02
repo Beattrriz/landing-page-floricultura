@@ -51,8 +51,9 @@ const CategoriesSection = () => {
   const [hoveredImage, setHoveredImage] = useState<number | null>(null);
 
   return (
-    <Section>
-      <h2>Trabalhamos com:</h2>
+    <section id="categories">
+      <Section>
+      <h2>Catálogo</h2>
       <CategoryGrid>
         {products.map((category) => (
           <CategoryCard key={category.id}>
@@ -69,6 +70,7 @@ const CategoriesSection = () => {
         ))}
       </CategoryGrid>
     </Section>
+    </section>
   );
 };
 
