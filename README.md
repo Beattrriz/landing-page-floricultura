@@ -41,8 +41,13 @@ A página inclui:
    ```bash
       npm install
     ```
-4. **Entre no diretório do projeto**:
+4. **Iniciar o servidor de desenvolvimento**:
    ```bash
-      npm install
+      npm start
     ```
+Isso abrirá o projeto em http://localhost:3000.
 
+
+## Implantação
+A landing page foi publicada na Vercel e pode ser acessada através do link:
+- https ://nome -do -projeto .vercel .app
