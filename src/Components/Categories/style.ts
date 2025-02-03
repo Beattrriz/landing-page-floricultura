@@ -23,7 +23,7 @@ export const Section = styled.section`
     
     h2 {
       font-size: 3rem;
-      margin-top: 250px; 
+      margin-top: 280px; 
     }
   }
 `;

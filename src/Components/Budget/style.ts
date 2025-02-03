@@ -13,12 +13,14 @@ export const BudgetContainer = styled.section`
 
     h2 {
     font-family: 'Fleur De Leah', cursive;
-    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 3.9rem;
     margin-bottom: 15px;
     }
 
     p {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     margin-bottom: 25px;
     }
 

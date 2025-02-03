@@ -72,11 +72,13 @@ export const HeroContent = styled.div`
     h1 {
         font-size: 55px;
         font-family: 'Fleur De Leah', cursive;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         color: rgb(233, 149, 173);
     }
 
     p {
         font-size: 1.7rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         margin: 20px 0;
     }
 
