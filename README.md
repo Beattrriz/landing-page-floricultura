@@ -55,4 +55,4 @@ Isso abrirá o projeto em http://localhost:3000.
 
 ## 🌍 Implantação
 A landing page foi publicada na Vercel e pode ser acessada através do link:
-- https ://nome -do -projeto .vercel .app
+- https://landing-page-floricultura-puce.vercel.app/
